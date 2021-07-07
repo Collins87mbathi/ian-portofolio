@@ -284,20 +284,20 @@ img {
     transform: translateY(-5%);
 }
 .card:nth-child(1):before {
-    background-image: url(home.jpg);
+    background-image: url(about2.jpg);
 }
 
 .card:nth-child(2):before {
-    background-image: url(home.jpg);
+    background-image: url(about3.png);
 }
 .card:nth-child(3):before {
-    background-image: url(home.jpg);
+    background-image: url(about4.jpg);
 }
 .card:nth-child(4):before {
-    background-image: url(home.jpg);
+    background-image: url(about5.jpg);
 }
 .card:nth-child(5):before {
-    background-image: url(home.jpg);
+    background-image: url(about1.jpg);
 }
 .card:nth-child(6):before {
     background-image: url(home.jpg);
