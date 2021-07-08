@@ -32,13 +32,13 @@
     font-size: 1.3rem;
     font-weight: bold;
     letter-spacing: 0.1rem;
-    color: green;
+    color: rgb(12, 250, 12);
 }
 
 .logo-btn {
     border: none;
     background-color: transparent;
-    color: green;
+    color: rgb(12, 250, 12);
     font-size: 2rem;
     margin: 0.5rem;
     cursor: pointer;
@@ -78,7 +78,7 @@ ul {
       transition: all ease 0.3s;
     }
     .nav-links a:hover {
-      color: green;
+      color: rgb(12, 250, 12);
     }
     .nav-center {
       display: grid;
@@ -135,7 +135,7 @@ ul {
     margin-bottom: 1.5rem;
 }
 .sidebar-links a:hover {
-    color: green;
+    color: rgb(12, 250, 12);
 }
 
 .close-btn {
@@ -151,23 +151,28 @@ ul {
   cursor: pointer;
 }
 .close-btn:hover{
-    color: green;
+    color: rgb(12, 250, 12);
 }
 
 .home-content {
     text-align: center;
     margin: 100px;
-    color: green;
+    color: rgb(12, 250, 12);
     font-weight: bold;
 }
 .icon {
     font-size: 2.5rem;
+    transition: all ease 3s;
 
+}
+
+icon:hover {
+    color: black;
 }
 
 .nav-link {
     font-size: 1.5rem ;
-    color : green;
+    color : rgb(12, 250, 12);
     margin: 0.5rem;
 }
 #about {
@@ -190,7 +195,7 @@ img {
 }
 .content h2 {
    margin-left:0.5rem;
-   color: green;
+   color: rgb(12, 250, 12);
 }
 
 @media (min-width:768px) {
@@ -249,7 +254,7 @@ img {
     padding: 1rem;
     width: 100%;
     text-align: center;
-    color: green;
+    color: rgb(12, 250, 12);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
 }
 
@@ -288,11 +293,12 @@ img {
     rgba(0,0,0,0.249) 53.1%,rgba(0,0,0,0.32) 58.9%,rgba(0,0,0,0.394) 64.3%,rgba(0,0,0,0.468) 69.3%,rgba(0,0,0,0.54) 74.1%, rgba(0,0,0,0.607) 78.8%,rgba(0,0,0,0.668) 83.6%,rgba(0,0,0,0.721) 88.7%,
     rgba(0,0,0,0.762) 94.1%, rgba(0,0,0,0.79) 100%);
 
-    transition: transform calc(700ms* 2) cubic-bezier(0.19, 1, 0.22, 1);;
+    transition: transform calc(700ms* 2) cubic-bezier(0.19, 1, 0.22, 1);
 }
 .card :hover {
     transform: translateY(-5%);
 }
+
 .card:nth-child(1):before {
     background-image: url(about2.jpg);
 }
@@ -407,7 +413,7 @@ img {
   .footer p {
     font-size: 1.25rem;
     text-transform: capitalize;
-    color: green;
+    color: rgb(12, 250, 12);
   }
 
   .products{
@@ -465,3 +471,77 @@ img {
 .gala {
     background-color:rgb(202, 216, 202) ;
 }
+
+.contact-content {
+    display: grid;
+    place-items: center;
+    color: rgb(12, 250, 12);
+}
+
+.note {
+    margin: 1rem;
+    
+}
+
+.number {
+    margin-left: 2rem;
+}
+
+.contact-background {
+ background: url(home.jpg);
+ height: 100vh;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.contact-link i {
+    font-size: 2rem;
+    margin-left: 5rem;
+}
+
+
+.service {
+    background:transparent;
+    padding: 3rem 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    -webkit-transition:all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+
+  .service p {
+    -webkit-transition:all 0.3s linear;
+    transition: all 0.3s linear;
+  }
+  .service:hover {
+    background:rgb(12, 250, 12) ;
+    color: black;
+  }
+  .service:hover p {
+    color: black;
+  }
+
+  @media screen and (min-width: 676px) {
+    .services-center {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      -webkit-column-gap: 2rem;
+      -moz-column-gap: 2rem;
+      column-gap: 2rem;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .services-center {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+
+  .section-contact {
+      background: url(home.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+  }
