@@ -183,8 +183,8 @@ icon:hover {
 }
 
 img {
-   height: 500px;
-   width: 400px;
+   height: 350px;
+   width: 250px;
    border-radius: 2rem;
    margin: 1rem;
 }
@@ -194,7 +194,7 @@ img {
     
 }
 .content h2 {
-   margin-left:0.5rem;
+  margin-left:0.5rem;
    color: rgb(12, 250, 12);
 }
 
@@ -245,6 +245,8 @@ img {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+
 
 .card {
     position: relative;
@@ -408,12 +410,14 @@ img {
     background: black;
     display: grid;
     place-items: center;
+  
   }
   
   .footer p {
-    font-size: 1.25rem;
+    font-size: 1rem;
     text-transform: capitalize;
     color: rgb(12, 250, 12);
+    margin: 10px;
   }
 
   .products{
